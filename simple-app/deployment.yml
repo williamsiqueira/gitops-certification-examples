@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: webserver-simple
-        image: docker.io/nginx:v1.0
+        image: docker.io/nginx
         ports:
         - containerPort: 8080
