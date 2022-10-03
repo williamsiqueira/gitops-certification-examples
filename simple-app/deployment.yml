@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: webserver-simple
-        image: docker.io/nginx
+        image: gitops-certification-examples
         ports:
         - containerPort: 8080
